@@ -1,12 +1,27 @@
-# React + Vite
+22761A1270 Calculator
+📌 Project Overview
+The 22761A1270 Calculator is a React-based web application that fetches and displays numerical data from different API sources. Users can select a category (primes, fibonacci, even, or random numbers) to retrieve relevant data and calculate the average.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Fetches numbers from predefined API endpoints.
 
-Currently, two official plugins are available:
+Supports different number categories:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+P → Prime Numbers
 
-## Expanding the ESLint configuration
+F → Fibonacci Numbers
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+E → Even Numbers
+
+R → Random Numbers
+
+Calculates and displays the average of fetched numbers.
+
+Implements authentication using an API key.
+
+🛠 Tech Stack
+Frontend: React.js, Bootstrap
+
+Backend API: External API calls via Axios
+
+Build Tool: Vite
