@@ -25,3 +25,4 @@ Frontend: React.js, Bootstrap
 Backend API: External API calls via Axios
 
 Build Tool: Vite
+This Calculator gives automatic results
